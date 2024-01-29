@@ -1,8 +1,9 @@
 import React from "react";
+import './PeopleListItem.css';
 
 export const PeopleListItem = ({chikis}) => {
     return (
-        <div>
+        <div className="list-item-container">
             <h3>{chikis.name}</h3>
             <p>Age: {chikis.age}</p>
             <p>Hair Color: {chikis.hairColor}</p>
