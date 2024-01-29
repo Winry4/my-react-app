@@ -23,12 +23,21 @@ const chikis =  [{
 
 function App() {
   let reactName = 'REACT';
-  let url = 'https://reactjs.org'
+  let url = 'https://reactjs.org';
+
+/*   const displayAlert = () =>{
+    alert('Hello');
+  } */
+
+  
+
   return (
     <div className="App">
       <header className="App-header">
         <Greeting name="Rebeca" numberOfMessages={50} />
         <PeopleList chikis={chikis} />
+        {/* <button onClick={displayAlert}>Click Me!</button> */}
+        <button onClick={() => alert('Hello')}> Click me! </button>
         <p>
           Esta es mi primera app en {reactName}
         </p>
