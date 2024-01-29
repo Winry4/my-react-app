@@ -34,6 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p style={{color:'red', fontSize:'96px'}}> Big Red Text</p>
         <Greeting name="Rebeca" numberOfMessages={50} />
         <PeopleList chikis={chikis} />
         {/* <button onClick={displayAlert}>Click Me!</button> */}
